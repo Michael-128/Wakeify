@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct wakeonlanApp: App {
+struct WakeOnLanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

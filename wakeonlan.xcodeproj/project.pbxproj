@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90FF93552C883CE7001CDCE4 /* wakeonlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF93542C883CE7001CDCE4 /* wakeonlanApp.swift */; };
+		90FF93552C883CE7001CDCE4 /* WakeOnLanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF93542C883CE7001CDCE4 /* WakeOnLanApp.swift */; };
 		90FF93572C883CE7001CDCE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF93562C883CE7001CDCE4 /* ContentView.swift */; };
 		90FF93592C883CE9001CDCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FF93582C883CE9001CDCE4 /* Assets.xcassets */; };
 		90FF935D2C883CE9001CDCE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FF935C2C883CE9001CDCE4 /* Preview Assets.xcassets */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		90FF93512C883CE7001CDCE4 /* wakeonlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakeonlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90FF93542C883CE7001CDCE4 /* wakeonlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wakeonlanApp.swift; sourceTree = "<group>"; };
+		90FF93542C883CE7001CDCE4 /* WakeOnLanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLanApp.swift; sourceTree = "<group>"; };
 		90FF93562C883CE7001CDCE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90FF93582C883CE9001CDCE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90FF935A2C883CE9001CDCE4 /* wakeonlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wakeonlan.entitlements; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				90FF935A2C883CE9001CDCE4 /* wakeonlan.entitlements */,
-				90FF93542C883CE7001CDCE4 /* wakeonlanApp.swift */,
+				90FF93542C883CE7001CDCE4 /* WakeOnLanApp.swift */,
 				90FF93562C883CE7001CDCE4 /* ContentView.swift */,
 				90FF93632C883DB2001CDCE4 /* DeviceListView.swift */,
 				90FF93652C883EC1001CDCE4 /* DeviceListRow.swift */,
@@ -167,7 +167,7 @@
 				90FF93662C883EC1001CDCE4 /* DeviceListRow.swift in Sources */,
 				90FF93682C884347001CDCE4 /* DeviceAddSheet.swift in Sources */,
 				90FF93702C89B215001CDCE4 /* AppInfoClass.swift in Sources */,
-				90FF93552C883CE7001CDCE4 /* wakeonlanApp.swift in Sources */,
+				90FF93552C883CE7001CDCE4 /* WakeOnLanApp.swift in Sources */,
 				90FF936E2C89B0DC001CDCE4 /* AboutSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = wakeonlan/wakeonlan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -319,7 +320,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MikeMichael.wakeonlan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeMichael.WakeOnLan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -334,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = wakeonlan/wakeonlan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -359,7 +361,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MikeMichael.wakeonlan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeMichael.WakeOnLan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
