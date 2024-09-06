@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90FF93512C883CE7001CDCE4 /* wakeonlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wakeonlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FF93512C883CE7001CDCE4 /* Wakeify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wakeify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FF93542C883CE7001CDCE4 /* WakeOnLanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLanApp.swift; sourceTree = "<group>"; };
 		90FF93562C883CE7001CDCE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90FF93582C883CE9001CDCE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		90FF93522C883CE7001CDCE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90FF93512C883CE7001CDCE4 /* wakeonlan.app */,
+				90FF93512C883CE7001CDCE4 /* Wakeify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90FF93502C883CE7001CDCE4 /* wakeonlan */ = {
+		90FF93502C883CE7001CDCE4 /* Wakeify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90FF93602C883CE9001CDCE4 /* Build configuration list for PBXNativeTarget "wakeonlan" */;
+			buildConfigurationList = 90FF93602C883CE9001CDCE4 /* Build configuration list for PBXNativeTarget "Wakeify" */;
 			buildPhases = (
 				90FF934D2C883CE7001CDCE4 /* Sources */,
 				90FF934E2C883CE7001CDCE4 /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = wakeonlan;
+			name = Wakeify;
 			productName = wakeonlan;
-			productReference = 90FF93512C883CE7001CDCE4 /* wakeonlan.app */;
+			productReference = 90FF93512C883CE7001CDCE4 /* Wakeify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90FF93502C883CE7001CDCE4 /* wakeonlan */,
+				90FF93502C883CE7001CDCE4 /* Wakeify */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90FF93602C883CE9001CDCE4 /* Build configuration list for PBXNativeTarget "wakeonlan" */ = {
+		90FF93602C883CE9001CDCE4 /* Build configuration list for PBXNativeTarget "Wakeify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90FF93612C883CE9001CDCE4 /* Debug */,
